@@ -1,4 +1,6 @@
 
+
+let resultado = document.querySelector('.resultado');
 // função do exercicio 04
 function obterValor() {
     // Pega o valor do input
@@ -12,6 +14,7 @@ function obterValor() {
         document.getElementById("resultado_ex04").innerHTML = `${numero}  É UM NÚMERO POSITIVO`;
     } else {
         document.getElementById("resultado_ex04").innerHTML = `${numero}  É UM NÚMERO NEGATIVO`;
+        resultado.classList.add('resultadoVermelho')
     }
 }
 
@@ -28,6 +31,7 @@ function dividir(){
     // Verifica se o número pode ser dividido
     if (n2_ex05 == 0) {
         document.getElementById("resultado_ex05").innerHTML = `  NÃO É POSSÍVEL DIVIDIR POR ZERO`;
+        document.getElementById("resultado_ex05").classList.add('resultadoVermelho')
     } else {
         let resultado = n1_ex05 / n2_ex05
         document.getElementById("resultado_ex05").innerHTML = `${n1_ex05} DIVIDIDO POR ${n2_ex05} é ${resultado}`;
@@ -89,9 +93,12 @@ function media(){
     
     if (media < 6 ){
         document.getElementById("resultado_ex08").innerHTML = `Média ${media}, Você esta Recuperação`;
+        document.getElementById("resultado_ex08").classList.add('resultadoAmarelo')
     }
     if (media <=3){
         document.getElementById("resultado_ex08").innerHTML = `Média ${media}, Você esta Reprovado`;
+        document.getElementById("resultado_ex08").classList.add('resultadoVermelho')
+        
     }
    
 }

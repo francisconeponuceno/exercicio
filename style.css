@@ -18,6 +18,19 @@ body{
 
 .ex p{
     margin: 10px;
+    
+}
+
+.resultado{
+    color: green;
+}
+
+.resultadoVermelho{
+    color: red;
+}
+
+.resultadoAmarelo{
+    color: rgb(255, 174, 0);
 }
 
 .nota {
