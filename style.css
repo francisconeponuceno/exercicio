@@ -1,0 +1,26 @@
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.ex{
+    
+    justify-content: center;
+    width: 450px;
+    height: 200px;
+    border: solid 1px black;
+    border-radius: 5px;
+    padding-left: 10px;
+}
+
+.ex p{
+    margin: 10px;
+}
+
+.nota {
+    margin-top: 0;
+    margin-bottom: 0;
+}
