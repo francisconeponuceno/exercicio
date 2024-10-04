@@ -25,6 +25,62 @@ body{
     margin-bottom: 0;
 }
 
-@media () {
+/*TABLET*/
+@media screen and (min-width: 768px) and (max-width: 965px){
+
+    .ex {
+        width: 350px;
+
+    }
+    .ex h1{
+        font-size: 1rem;
+        
+    }
+
+    
+}
+/*TABLET*/
+@media screen and (min-width: 660px) and (max-width: 768px){
+
+    .ex {
+        width: 300px;
+
+    }
+    .ex h1{
+        font-size: 1rem;
+        
+    }
+    .ex p{
+        font-size: 0.8rem;
+        
+    }
+
+    
+}
+
+/*celular*/
+@media screen and (min-width: 300px) and (max-width: 660px){
+
+    body {
+        display: flex;
+        flex-direction: column;
+        
+
+    }
+
+    .ex {
+        width: 300px;
+        
+
+    }
+    .ex h1{
+        font-size: 1rem;
+        
+    }
+    .ex p{
+        font-size: 0.8rem;
+        
+    }
+
     
 }
